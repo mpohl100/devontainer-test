@@ -1,7 +1,7 @@
 {
     "name": "My Codespace with Postgres",
     "dockerComposeFile": [
-        "docker-compose.yml"
+        "docker-compose.yaml"
     ],
     "service": "devcontainer",
     "workspaceFolder": "/workspace",
