@@ -5,8 +5,9 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - .:/workspace:cached
-    # Other devcontainer settings...
+      - ..:/workspace:cached
+    user: root
+    command: sleep infinity
 
   postgres:
     image: postgres:16
